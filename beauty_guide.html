@@ -59,19 +59,61 @@
             text-align: center;
             margin-top: 10px;
         }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            border-bottom: 1px solid #ddd;
+            background-color: #FFE4E1;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .menu {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .menu a {
+            text-decoration: none;
+            color: black;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+        .header {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 32px;
+        }
+        .container {
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <div class="logo">Beauty Guide</div>
+        <div class="menu">
+            <a href="#mengapa">Mengapa Self-Care?</a>
+            <a href="#kulit">Merawat Kulit</a>
+            <a href="#skincare">Rekomendasi Skincare</a>
+            <a href="#rambut">Perawatan Rambut</a>
+            <a href="#haircare">Rekomendasi Haircare</a>
+            <a href="#tubuh">Kesehatan Tubuh</a>
+            <a href="#mental">Kesehatan Mental</a>
+        </div>
+    </div>
     <h1 align="center">Self-Care is Self-Love! Rahasia Perawatan Diri untuk Tampil Lebih Cantik, Bahagia, & Bersinar</h1>
      <p class="sub-header"> by Tamu Rambu</p>
     <div class="image-container">
-       <img src="C:/Users/Lenovo/Downloads/selfcare.jpg" alt="Self Care Image" width="420">
+       <img src="selfcare.jpg" alt="Self Care Image" width="420">
 
     </div>
-    <h2>Mengapa Self-Care Itu Penting?</h2>
+    <h2 id="mengapa"> Mengapa Self-Care Itu Penting?</h2>
     <p> Dalam keseharian yang sibuk, kita sering lupa bahwa merawat diri sendiri adalah hal yang penting. Self-care bukan sekadar rutinitas kecantikan, tetapi juga cara untuk menunjukkan cinta pada diri sendiri. Merawat diri bukanlah tentang kemewahan, tetapi sebuah kebutuhan. Self-care bukan hanya perawatan kulit atau rambut, tetapi juga bagaimana kita menjaga keseimbangan tubuh, pikiran, dan jiwa. Dengan memberikan perhatian lebih pada diri sendiri dan menjalani rutinitas yang tepat, kita bisa merasa lebih bahagia, sehat, dan percaya diri. Mulailah dari hal sederhana, karena sedikit perawatan bisa memberikan dampak besar bagi kesejahteraanmu.</p>
     
-     <h2>Merawat Kulit: Kunci Wajah Sehat dan Bersinar</h2>
+     <h2 id="kulit"> Merawat Kulit: Kunci Wajah Sehat dan Bersinar</h2>
     <ul>
         <li>Membersihkan wajah dengan sabun muka yang sesuai secara teratur minimal 2x sehari</li>
         <li>Lakukan <i>double cleansing</i> pada malam hari atau sehabis keluar rumah</li>
@@ -81,10 +123,10 @@
         <li>Rutin mengeksfoliasi kulit 2 kali seminggu untuk mengangkat kulit mati</li>
     </ul>
     <div class="image-container">
-    <img src="C:/Users/Lenovo/Downloads/skincare.jpg" alt="Produk Skincare" width="370">
+    <img src="skincare.jpg" alt="Produk Skincare" width="370">
 </div>
     
-    <h2>Rekomendasi Skincare</h2>
+    <h2 id="skincare"> Rekomendasi Skincare</h2>
     <table>
          <tr>
             <th>Nama Produk</th>
@@ -118,7 +160,7 @@
         </tr>
     </table>
     
-    <h2>Perawatan Rambut: Mahkota yang Butuh Cinta </h2>
+    <h2 align="left", id="rambut"> Perawatan Rambut: Mahkota yang Butuh Cinta </h2>
     <ul>
         <li>Rutin gunakan minyak rambut minimal 30 menit sebelum keramas</li>
         <li>Keramas 2 minggu sekali menggunakan shampo yang sesuai dengan jenis rambut dan kulit kepala</li>
@@ -126,7 +168,7 @@
        <li>Wajib mengeringkan rambut menggunakan hairdryer dan selalu gunakan heat protection sebelum styling rambut</li> 
     </ul>
     
-    <h3>Rekomendasi Produk Haircare</h3>
+    <h3  id="haircare"> Rekomendasi Produk Haircare</h3>
     <table>
         <tr>
             <th>Nama Produk</th>
@@ -155,17 +197,17 @@
         </tr>
     </table>
     
-    <h2>Kesehatan Tubuh: Inner Beauty yang Terpancar </h2>
+    <h2 id="tubuh"> Kesehatan Tubuh: Inner Beauty yang Terpancar </h2>
     <ol>
         <li><b>Konsumsi makanan sehat:</b><br> Makanlah makanan kaya nutrisi yang mengandung vitamin, mineral, dan antioksidan untuk menutrisi kulit. Pola makan yang baik harus mencakup buah segar, sayuran, dan produk susu rendah lemak.</li><br>
         <li><b>Tetap terhidrasi:</b><br> Minumlah air putih minimal 2L/hari untuk menghindari kulit kering dan membantu tubuh mengeluarkan racun yang memengaruhi kesehatan kulit. Pastikan juga mendapatkan istirahat yang cukup(8 jam/hari) dan tidur di atas sarung bantal sutra untuk mengurangi risiko iritasi dan jerawat.</li><br>
         <li><b>Rutin berolahraga:</b><br> Aktivitas fisik seperti jalan kaki selama 30 menit dapat meningkatkan sirkulasi darah, meningkatkan produksi kolagen, dan membuat kulit tampak lebih bercahaya. Selain itu yoga atau <i>stretching</i> juga dapat menjaga fleksibilitas tubuh dan mengurangi stres</li><br>
     </ol>
     <div class="image-container">
-   <img src="C:/Users/Lenovo/Downloads/food.jpg" alt="Makanan Sehat" width="370">
+   <img src="food.jpg" alt="Makanan Sehat" width="370">
 </div>
     
-    <h2>Kesehatan Mental: Bahagia Itu Glowing dari Dalam </h2>
+    <h2 id="mental"> Kesehatan Mental: Bahagia Itu Glowing dari Dalam </h2>
      <ol>
     <li><b> Luangkan Waktu untuk Diri Sendiri:</b><br> Sesibuk apa pun aktivitasmu, selalu sediakan waktu untuk me-time. Lakukan hal-hal yang kamu sukai, seperti membaca buku, mendengarkan musik, atau sekadar menikmati secangkir teh hangat.</li><br>
         <li><b> Batasi Penggunaan Media Sosial:</b><br> Terlalu banyak menghabiskan waktu di media sosial bisa membuatmu membandingkan diri dengan orang lain dan memicu perasaan tidak percaya diri. Batasi screen time dan fokuslah pada kehidupan nyata yang lebih bermakna.</li><br>
